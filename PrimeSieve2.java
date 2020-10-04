@@ -10,7 +10,7 @@ package primesieve2;
  * @author anels
  */
 interface PrimeSieve2 {
-        public void isPrime(int p);
+        public boolean isPrime(int p);
         
         public void PrintPrimes(int max);
 }
