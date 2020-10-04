@@ -11,6 +11,10 @@ package primesieve2;
  */
 public class Main {
     public static void main(String[] args) {
+        EratoshenesPrimeSieve2 ers = new EratoshenesPrimeSieve2(10);
+        ers.isPrime(9);
+        ers.PrintPrimes();
+        ers.PrimesSum();
         
     }
 }
