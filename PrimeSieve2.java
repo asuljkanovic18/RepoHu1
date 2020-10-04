@@ -12,5 +12,5 @@ package primesieve2;
 interface PrimeSieve2 {
         public boolean isPrime(int p);
         
-        public void PrintPrimes(int max);
+        public void PrintPrimes();
 }
