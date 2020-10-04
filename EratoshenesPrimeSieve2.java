@@ -53,7 +53,27 @@ public class EratoshenesPrimeSieve2 implements PrimeSieve2{
     }
     
     public void PrimesSum(){
-        
+        int j = 2;
+        int h = 3;
+        int z = 5;
+        int b = 7;
+        for (int i = 3; i < primemax; i++) {
+            if(i%2 == 0){
+                if(isPrime(i-j)==true){
+                    int y = i-j;
+                    System.out.println( i +" summe: " + i + " = " + j +" + " + y);
+                }else if(isPrime(i-h) == true){
+                int y = i-h;
+                System.out.println( i +" summe: " + i + " = " + h +" + " + y);
+                }else if(isPrime(i-z)==true){
+                    int y = i-z;
+                    System.out.println( i +" summe: " + i + " = " + z +" + " + y);
+                }else if(isPrime(i-b)==true){
+                    int y = i-b;
+                    System.out.println( i +" summe: " + i + " = " + b +" + " + y);
+                }
+            }
+        }
     }
     
     
